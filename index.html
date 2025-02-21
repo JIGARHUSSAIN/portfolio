@@ -1,0 +1,136 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jigar Hussain | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f8ff;
+            color: #2c3e50;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 10px;
+            background-color: #2a5298;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 30px;
+            margin: 20px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        .projects div {
+            background: #eef5ff;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .projects div:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #ffffff;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            section {
+                margin: 10px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jigar Hussain</h1>
+        <p>Full Stack Development Enthusiast</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header><section id="about">
+    <h2>About Me</h2>
+    <p>I'm a BCA student passionate about full-stack development, eager to build dynamic web applications and enhance my skills in a challenging environment.</p>
+    <p>Education: Seshadripuram First Grade College (2022-2025) - CGPA: 9</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>JavaScript, Python</li>
+        <li>NumPy, Pandas, Matplotlib</li>
+        <li>GitHub, Visual Studio Code</li>
+        <li>Resilience, Teamwork</li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div>
+        <h3>Instagram Like Button</h3>
+        <p>Implemented using the Document Object Model (DOM) in JavaScript.</p>
+        <a href="#">GitHub Link</a>
+    </div>
+    <div>
+        <h3>To-Do List</h3>
+        <p>Created a task management application with add and remove task functionality.</p>
+        <a href="#">GitHub Link</a>
+    </div>
+    <div>
+        <h3>Weather App</h3>
+        <p>A real-time weather application using OpenWeather API to fetch live weather updates.</p>
+        <a href="#">GitHub Link</a>
+    </div>
+    <div>
+        <h3>Chat Application</h3>
+        <p>A real-time chat application using WebSockets for instant messaging.</p>
+        <a href="#">GitHub Link</a>
+    </div>
+    <div>
+        <h3>Expense Tracker</h3>
+        <p>A personal finance tracker built using JavaScript to manage daily expenses.</p>
+        <a href="#">GitHub Link</a>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: jigarhussain@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/jigar-hussain-aj24081974" target="_blank">Jigar Hussain</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Jigar Hussain</p>
+</footer>
+
+</body>
+</html>
